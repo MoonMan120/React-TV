@@ -20,7 +20,7 @@ export default function App() {
         />
       </header>
       <main>
-        <ShowDetails key={selectedShow.name} show={selectedShow} />
+        <ShowDetails key={selectedShow?.name} show={selectedShow} />
       </main>
     </>
   );
